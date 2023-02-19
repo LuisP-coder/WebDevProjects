@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "OCR";
+    src: url(CreditPage/OCR\ A\ Extended\ Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #334195, #647AA3);
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 560px;
+    height: 300px;
+    background: radial-gradient(
+        140% 140% at 0% 0%,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-radius: 5%;
+    position: absolute;
+}
+.name{
+    color: white;
+    font-weight: 100;
+    font-family: monospace;
+    font-size: 28px;
+    right: 35px;
+    top: 30px;
+    position: absolute;
+}
+.chip{
+    width: 50px;
+    top: 80px;
+    left: 30px;
+    position: absolute;
+}
+.ctn{
+    width: 50px;
+    top: 80px;
+    left: 90px;
+    position: absolute;
+}
+.numbers{
+    color: white;
+    font-size: 38px;
+    font-weight: 300;
+    font-family: monospace;
+    top: 150px;
+    left: 60px;
+    position: relative;
+}
+.holder{
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 100;
+    bottom: 25px;
+    left: 40px;
+    position: absolute;
+}
+.holder span{
+    font-weight: 700;
+    font-size: 24px;
+}
+.valid {
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 100;
+    bottom: 25px;
+    left: 240px;
+    position: absolute;
+}
+.valid span{
+    font-weight: 700;
+    font-size: 24px;
+}
+.logo{
+    width: 100px;
+    bottom: 30px;
+    left: 420px;
+    position: absolute;
+}
